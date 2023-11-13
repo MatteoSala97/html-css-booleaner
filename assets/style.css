@@ -6,6 +6,24 @@
 
 header{
     background-image: url("./img/pattern.png");
-    background-color: rgb(50, 182, 225);
+    background-color: rgb(95, 155, 234)
+}
+
+.header-title{
+    width: 300px;
+    height: 100px;
+    margin-top: 50px;
+}
+
+h1{
+    margin-top: 20px;
+}
+
+.special{
+    background-color: yellow;
+}
+
+.un-list{
+    margin-left: 1.5em;
 }
 
