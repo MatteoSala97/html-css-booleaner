@@ -28,12 +28,11 @@ h1{
 table{
     width: 100%;
     border-collapse: collapse;
-    text-align: justify;
 }
 thead{
     background-color: rgb(0, 157, 255);
     color: white;
-    text-align: center;
+    text-align: left;
 }
 
 .highlighted-row{
@@ -41,12 +40,8 @@ thead{
 }
 
 td{
-    padding: 25px;
+    padding: 10px;
 }
-
-
-
-
 
 .special{
     background-color: yellowgreen;
