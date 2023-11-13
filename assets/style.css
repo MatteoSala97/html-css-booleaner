@@ -11,7 +11,7 @@
 
 header{
     background-image: url("./img/pattern.png");
-    background-color: rgb(95, 155, 234)
+    background-color: #3b5998;
 }
 
 .header-title{
@@ -23,7 +23,9 @@ header{
 h1{
     margin-top: 20px;
 }
-
+#author{
+    color: #3b5998;
+}
 
 table{
     width: 100%;
@@ -33,14 +35,11 @@ thead{
     background-color: rgb(0, 157, 255);
     color: white;
     text-align: left;
+    text-align: justify;
 }
 
 .highlighted-row{
     background-color: lightblue;
-}
-
-td{
-    padding: 10px;
 }
 
 .special{
@@ -49,6 +48,28 @@ td{
 
 .un-list{
     margin-left: 1.5em;
+}
+
+h3{
+    color: grey;
+    margin-bottom: 15px;
+}
+
+.footer-box-1{
+    background-image: url(./img/monitor.jpg);
+    background-repeat: no-repeat;
+    width: 310px;
+    height: 210px;
+    color: white;
+    font-size: 25px;
+}
+.footer-box-2{
+    background-image: url(./img/graph.jpg);
+    background-repeat: no-repeat;
+    width: 310px;
+    height: 210px;
+    color: white;
+    font-size: 25px;
 }
 
 /* .image-container {
