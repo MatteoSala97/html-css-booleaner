@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 
-.box{
-    margin-left: 5em;
-    margin-right: 5em;
+main{
+    margin: 0 auto;
+    width: 80%;
 }
 
 header{
@@ -58,6 +58,8 @@ h3{
 .footer-box-1{
     background-image: url(./img/monitor.jpg);
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover ;
     width: 310px;
     height: 210px;
     color: white;
@@ -66,8 +68,10 @@ h3{
 .footer-box-2{
     background-image: url(./img/graph.jpg);
     background-repeat: no-repeat;
-    width: 310px;
+    background-position: center;
+    background-size: cover ;
     height: 210px;
+    width: 310px;
     color: white;
     font-size: 25px;
 }
